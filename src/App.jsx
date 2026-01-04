@@ -55,10 +55,15 @@ export default function App() {
       />
 
       <Navbar />
-      <Hero />
-      <Services />
-
-      <Footer />
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="services">
+        <Services />
+      </section>
+      <section id="contact">
+        <Footer />
+      </section>
       <BackToTop />
     </div>
   );
