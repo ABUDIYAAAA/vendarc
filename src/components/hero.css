@@ -1,0 +1,20 @@
+.cursor {
+  width: 2px;
+  height: 0.9em;
+  margin-left: 6px;
+  border-radius: 999px;
+  background-color: rgb(163 163 163); /* neutral-400 */
+  opacity: 0.85;
+  animation: cursorBlink 1.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes cursorBlink {
+  0%,
+  45% {
+    opacity: 0.85;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
